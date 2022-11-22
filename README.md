@@ -1,2 +1,6 @@
-# TIL
-Today I Learned
+<br>
+
+# 👩🏻‍💻 TIL 기록
+공부한 것을 기록하는 습관을 가지자!
+
+<br>
