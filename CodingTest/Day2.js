@@ -8,15 +8,17 @@ function solution(denum1, num1, denum2, num2) {
     const num = num1 * num2
     let gcd = 1;
 
-    //최대공약수 gcd 구하기
+//최대공약수 gcd 구하기
+// Math.min() => 제공된 숫자 중 가장 작은 숫자를 반환
+    
     for(i=2; i<= Math.min(num, denum); i++){
         if(denum % i === 0 && num % i === 0){
             gcd = i;
         }
     }
-    answer.push(Math.floor(denum/minNum))
-    answer.push(Math.floor(num/minNum))
+    answer.push(Math.floor(denum/gcd))
+    answer.push(Math.floor(num/gcd))
     return answer;
 }
 
-// Math.min() => 제공된 숫자 중 가장 작은 숫자를 반환
+
