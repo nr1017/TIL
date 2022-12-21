@@ -14,3 +14,10 @@ function solution(n) {
 /*
 해당문자가 없으면 arr에 문자를 추가하여 중복된 문자를 제거했다.
 */
+
+
+// 다른사람 풀이
+
+function solution(my_string) {
+    return [...new Set(my_string)].join('');
+}
